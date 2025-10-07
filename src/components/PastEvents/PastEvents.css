@@ -1,0 +1,77 @@
+.Past_events_h3{
+    text-align: center;
+    font-size: 12rem;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    line-height: 0.95;
+    font-weight: 900;
+    
+}
+
+.carosel_div{
+    padding: 20px 0 20px 0 ;
+}
+
+.gallery_section{
+    background-color:#ffe4a9;
+    
+}
+
+.gallery_h{
+    padding-left: 9.5rem;
+    padding-top: 5rem;
+    font-size: 2.5rem;
+}
+
+.gallery{
+    align-self: auto;
+    padding: 4rem 0 2rem 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.column{
+    padding-left: 20px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap:20px;
+}
+ .column img{
+    width: 25rem;
+ }
+
+
+.past_btn_container{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.past_btn_container a{
+    text-decoration: none;
+}
+
+.Metric_main{
+     background-color: #ffaa00;
+     padding-bottom: 50px;
+
+}
+
+.Metrics_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.metric_h3{
+    margin: 0;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    padding-left: 7.2rem;
+}

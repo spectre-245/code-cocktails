@@ -1,0 +1,149 @@
+/* .Main_div{
+    background-color: #c90438;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav{
+        display: flex;
+        padding: 0;
+        align-items: center;
+        justify-content: space-around;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.logo{
+    height: 50px;
+    
+}
+
+ul{
+    list-style: none;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffe4a9;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li{
+    position: relative;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+li::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  height: 2px;
+  width: 0%;
+  background-color: #ffe4a9;
+  transition: width 0.9s ease;
+}
+
+li:not(:first-child):hover::after {
+  width: 100%;
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+li .active::after {
+  width: 100% !important;
+} */
+
+
+
+
+
+
+.Main_div{
+    background-color: #c90438;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav{
+        display: flex;
+        padding: 0;
+        align-items: center;
+        justify-content: space-around;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo{
+    height: 50px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffe4a9;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+}
+
+li{
+    position: relative;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* underline base (applies to li pseudo-element) */
+li::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  height: 2px;
+  width: 0%;
+  background-color: #ffe4a9;
+  transition: width 0.9s ease;
+}
+
+/* hover for all but the first li (logo) */
+li:not(:first-child):hover::after {
+  width: 100%;
+}
+
+/* permanent underline when the li has the 'active' class (non-first child) */
+li:not(:first-child).active::after {
+  width: 100%;
+}
+
+/* link styling (keeps default link look removed) */
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+

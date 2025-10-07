@@ -1,0 +1,34 @@
+
+
+.first_pic_container, .second_pic_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 3rem;
+}
+
+.first_pic_container a, .second_pic_container a{
+   text-decoration: none;
+}
+
+.first_pic_container img,
+.second_pic_container img{
+    max-width: 6rem;
+    height: auto;
+}
+
+
+
+
+.p_main{
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  height: 20rem;
+}
+
+.p_main h3{
+color:#004c2f;
+font-size: 1.8rem;
+text-align: center;
+}

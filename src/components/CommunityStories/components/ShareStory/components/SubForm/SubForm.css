@@ -1,0 +1,154 @@
+    .s_f_body{
+        background-color: #004c2f;
+        height: fit-content;
+        position: relative;
+    }
+
+
+    .s_f_text_container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .s_f_subdiv{
+        padding-top:2rem ;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        color: #ffe4a9; 
+        
+    }
+
+
+    .s_f_p{
+        padding: 0 0 30px;
+        margin: 0;    
+    }
+
+
+    .S_f_form{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        color: white;
+        width: 100%;
+        max-width: 50rem; 
+    }
+
+    .s_f_h1{
+        padding-top: 0;
+        padding-bottom: 20px;
+        margin: 0;
+        font-size: 3rem;
+        max-width: 35rem;
+    }
+
+    
+
+    .name_span{
+        padding-bottom:15px ;
+        padding-top: 20px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+
+    .name_inpt{
+        background-color: transparent;
+        height: 40px;
+        width: 99%;
+        border: solid white 2px;
+        color: white;
+    }
+
+    .select_s{
+        height: 40px;
+        width: 100%;
+        background-color: transparent;
+        border: solid white 2px;
+          color: white;    
+    }
+
+
+    .select_s option {
+        background-color: #004c2f; 
+        color: white;             
+        }
+
+        .opt1 {
+        color: white; 
+    }
+    
+    .img_btn{
+        height: 20px; 
+    }
+    .line{
+        /* height: 1.5px; */
+        background-color: white;
+        width: 100%;
+        border: solid white 1px;
+        margin: 20px 0 10px;
+    }
+
+    .btn_img{
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65px;
+        width: 100%;
+        gap: 5px;
+        font-size: 20px;
+    }
+
+  
+     .profile_span{
+        padding-bottom:10px ;
+        padding-top: 10px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .Text_area_container{
+          display: flex;
+          justify-content: center;
+    }
+
+    .text_sub_container{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        color: white;
+        width: 100%;
+        max-width:35rem; 
+        margin-bottom: 10rem;
+    }
+
+    .text_area{
+        height: 10rem;
+        background-color: transparent;
+        border: 1px solid white;
+        width: 100%;
+        max-width: 100%;
+        padding-top: 7px;
+        color: white;
+        margin-bottom: 20px;
+
+        
+    }
+
+
+
+    .sticker{
+        position: absolute;
+        right: -3rem;
+        bottom:60rem;
+        overflow: hidden;
+        height: 35rem;
+
+    }

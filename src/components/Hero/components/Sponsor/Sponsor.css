@@ -1,0 +1,68 @@
+.sponsor_div{
+    background-color: #f8f9e5;
+    height: 100%;
+    
+}
+
+.sponsor_h{
+    text-align: center;
+    font-size: 2.3rem;
+    padding-top: 6rem;
+    font-weight: bolder;
+}
+.sponsor_p{
+    text-align: center;
+    line-height: 1.4;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.sponsor_btn_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 4rem;
+}
+
+.silver_sponsor_h{
+    color: #07a067;
+    text-align: center;
+    padding-top: 4rem;
+    
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.partner_p{
+    text-align: center;
+    color: #004c2f;
+    padding: 4rem 0 2rem 0;
+    font-size: 2rem;
+}
+
+
+.links_container > a > img{
+    height: 60px;
+}
+.sponser_links_container > a > img:not(.lime_pic, .o2, .mythopia){
+    height: 4.2rem;
+
+}
+
+.sponser_links_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-bottom: 3rem;
+}
+.mythopia{
+    height: 40px;
+}
+
+.lime_pic{
+ height: 20px;
+}

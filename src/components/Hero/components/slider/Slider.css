@@ -1,0 +1,70 @@
+.slider_div{
+      height: 94dvh;
+      background-color: var(--bgColor);
+      overflow: hidden;
+      position: relative;
+      font-family: 'Chakra Petch', sans-serif;
+      /* margin-top: 1rem; */
+
+
+}
+
+.Activity_h{
+    color: #ffe4a9;
+    text-align: center;
+    font-weight: 600;
+    font-size: 300px;
+    letter-spacing: 8px;
+    margin-top: var(--margin);
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.vrlogo_container{
+  height: 500px;
+  top: var(--top);
+  right: var(--right);
+  position:absolute;
+  
+}
+
+.sub_heading{
+    color: #ffe4a9;
+    display:grid;
+    place-content: center;
+}
+
+.sub_heading_h{
+     font-weight:bold;
+     font-size: 30px;
+     text-align: center;
+     margin-bottom: 0;
+     margin-top: var(--sub_margin);
+     padding: 10px;
+
+}
+
+.sub_heading_p{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: var(--width);
+}
+
+.slider_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.Vrlogo_pic{
+  height: var(--image_height);
+}
+
+
+

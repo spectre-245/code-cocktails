@@ -1,0 +1,37 @@
+.image_wrapper {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 7rem;
+}
+
+.scrolling_track {
+  display: flex;
+  width: max-content;
+  animation: scrollLeft 50s linear infinite;
+  
+}
+
+.image_container {
+  display: flex;
+  gap: 12px;
+}
+
+
+.Im1 { transform: rotate(-5deg); }
+.Im2 { transform: rotate(3deg); }
+.Im3 { transform: rotate(-3deg); }
+.Im4 { transform: rotate(6deg); }
+.Im5 { transform: rotate(-2deg); }
+.Im6 { transform: rotate(4deg); }
+.Im7 { transform: rotate(-4deg); }
+
+/* Animation */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,26 @@
+.story_div{
+    height: 25rem;
+    background-color: #004c2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column; 
+    padding: 0;
+    margin: 0;
+}
+
+.story_h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+.story_p{
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    padding:0 0 4rem ;
+}
+
+.ss_link{
+    text-decoration: none;
+}

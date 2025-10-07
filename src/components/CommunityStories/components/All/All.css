@@ -1,0 +1,38 @@
+.Aten_h1{
+    text-align: center;
+    padding-top:2rem ;
+    font-size: 8rem;
+    color: #007144;
+    font-weight: 700;
+    opacity: 100%;
+    margin: 0;
+    padding-bottom: 0;
+    line-height: 1;
+      font-family: 'Chakra Petch', sans-serif;
+}
+
+.All_body{
+    background-color: #ffffff;
+    height: 100dvh;
+}
+
+
+.f_p_container{
+    display: flex;
+    justify-content: center;
+
+}
+.All_1st_p{
+    text-align: center;
+    font-size: 26px;
+    max-width: 39rem;
+    color: #007144;
+}
+
+.first_row, .second_row, .third_row, .forth_row{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0 5rem 0;
+}
+

@@ -1,0 +1,87 @@
+.PP_body{
+  height: fit-content;
+  background-color: #ffe4a9;
+  padding-top: 10rem;
+  padding-bottom: 0;
+  overflow: hidden;
+
+}
+
+
+.ppcard_container{
+    width: fit-content;
+    padding-bottom: 1rem;
+    overflow: auto;
+}
+
+.pp_carousel_track{
+    animation: scrollLeft 30s linear infinite;
+    gap: 35px;  
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    
+}
+
+
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); 
+  }
+}
+
+
+.pp_text_area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pp_h2{
+    padding-top: 1rem;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.pp_p{
+    width: 100%;
+    max-width: 50rem;
+    margin-bottom: 0;
+    padding-bottom: 4rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.sponsor_in{
+    background-color: #17bdff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Spon_in_h3{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+
+.spon_in_p{
+    width: 100%;
+    max-width: 40rem;
+    font-size: 25px;
+    margin-bottom: 0;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+

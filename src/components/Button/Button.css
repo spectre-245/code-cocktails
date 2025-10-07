@@ -1,0 +1,71 @@
+/* .ticket_btn{
+  position: relative;
+  padding: 15px 30px;
+  background-color: var(--bgColor);
+  width: var(--width);
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  z-index: 2;
+  box-shadow: none;
+  outline: none;
+  transition: all 0.3s ease;
+   text-decoration: none;  
+   display: flex;          
+  align-items: center;  
+ 
+} */
+
+.ticket_btn {
+  position: relative;
+  padding: 15px 30px;
+  background-color: var(--bgColor);
+  width: var(--width);
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  outline: none;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  
+  display: flex;          
+  align-items: center;  
+  justify-content: center; /* ✅ center button content */
+}
+
+
+
+.ticket_btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.ticket_btn::after{
+  content: '';
+  position: absolute;
+  /* background-color: #ffe4a9;  */
+background-color: var(--shadowColor);  top: -6px;     
+  left: -6px;    
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  border-radius: 0; 
+  transition: top 0.3s ease, left 0.5s ease;
+}
+
+.ticket_btn:hover::after {
+  top: 0;
+  left: 0;
+}
+
+
+

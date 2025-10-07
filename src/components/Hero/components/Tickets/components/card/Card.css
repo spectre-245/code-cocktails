@@ -1,0 +1,77 @@
+
+.cardd{
+        
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        height: 20rem;
+        background-color: var(--bgcolor);
+}
+
+
+.cardd-wrapper {
+  display: inline-block;
+  height: 61%;
+  padding-top: 20px;
+  background-color: transparent; /* no border initially */
+  padding: 20px; /* no space initially */
+  transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+.ticket-btn {
+  transform: translateY(-200%); /* start far above */
+  opacity: 0; /* invisible at start */
+  background-color: #ffe4a9;
+  border: 1px solid #f7a93f;
+  font-weight: bold;
+  padding: 12px 0;
+  margin-top: 20px;
+  cursor: pointer;
+  border-right: 3px solid #f7a93f;
+  color: black;
+  width: 100%;
+  transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1), /* smooth fall */
+opacity 0.5s ease;
+  transition-delay: 0.2s; /* delay fall slightly after hover starts */
+
+}
+
+.ticket-btn:hover {
+    border-color: black;
+}
+
+  
+.cardd-wrapper:hover {
+  background-color: #ffe4a9; /* cream border background */
+  padding: 20px; 
+  /* padding-top: 20px; */
+}
+
+.cardd-wrapper:hover .ticket-btn {
+  display: block;
+   transform: translateY(0); 
+    opacity: 1;
+    /* transition-delay: 0.9s; */
+}
+
+.Card_span{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.Card_price_span{
+    font-size: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+
+}
+
+.Card_span_ghs{
+     padding-top: 30px;
+    padding-left: 10px;
+    font-size: large;
+}
+
+.span_p{
+    display: flex;
+}

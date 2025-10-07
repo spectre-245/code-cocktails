@@ -1,0 +1,44 @@
+.metrics_div{
+    background-color: var(--bgcolor);
+    position: relative;
+    height: var(--height);
+    color: var(--color);
+    padding-left: 20px;
+    padding-right:var(--padright) ;
+    padding-bottom: 15px;
+    padding-top:12px ;
+
+    margin-top: 20px;
+    width: auto;
+    box-shadow: #c90438 4px 4px 10px;
+
+}
+
+.metrics_div img{
+    position: absolute;
+    top: var(--top);
+    right: var(--right);
+    height: var(--size);
+
+}
+
+
+.metrics_content {
+  white-space: pre-line;
+}
+
+
+.metrics_div h2{
+    font-size: 2rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.metrics_div p{
+       font-size: 1.5rem;
+}
+
+.metrics_div span{
+    font-size: 7rem;
+    font-weight: 900;
+}

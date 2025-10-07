@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CommunityStories from "./components/CommunityStories/CommunityStories";
+import All from "./components/CommunityStories/components/All/All";
+import SubForm from "./components/CommunityStories/components/ShareStory/components/SubForm/SubForm";
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Navbar/Navbar";
+import PastEvents from "./components/PastEvents/PastEvents";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        {/* Contents */}
+        <div className="contents">
+          <Switch>
+            <Route exact path="/">
+              <Hero />
+            </Route>
+            <Route path="/PastEvents">
+              <PastEvents />
+            </Route>
+            <Route exact path="/CommunityStories">
+              <CommunityStories />
+            </Route>
+            <Route path="/CommunityStories/all">
+              <All />
+            </Route>
+            <Route path="/CommunityStories/submission">
+              <SubForm />
+            </Route>
+          </Switch>
+        </div>
+      </div>
+    </Router>
   );
 }
 

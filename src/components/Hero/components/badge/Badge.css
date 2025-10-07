@@ -1,0 +1,40 @@
+
+.main_container{
+    position: absolute;
+    top: var(--top);
+    right: var(--right);
+    
+}
+
+.span_container {
+  position: relative;
+  display: inline-block;
+
+}
+
+.badge_span {
+  display: inline-block;
+  position: relative;
+  background-color: #ffaa00;
+  padding: 10px;
+    padding-left: var(--leftpad);
+    padding-right: var(--rightpad);
+  transform: rotate(-9deg);
+  z-index: 2;
+  font-size: large;
+  font-weight: bold;
+}
+
+.span_container::before {
+  content: '';
+  position: absolute;
+  background-color: black;
+  top: 6px;
+  left: 6px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+    transform: rotate(-9deg);
+
+}
+

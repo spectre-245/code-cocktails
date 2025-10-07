@@ -1,0 +1,83 @@
+body{
+    background-color: #f8f9e5;
+      font-family: 'Chakra Petch', sans-serif;
+
+}
+
+.first_p{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top:10px ;
+    font-size: 130px;
+    font-weight: bolder;
+    line-height: 1.1;
+    position: relative;
+    /* text-transform: uppercase; */
+}
+
+.small_p{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    font-weight: 400;
+    font-size: large;
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+
+
+.image_container img {
+  height: fit-content; /* Adjust as needed */
+  width: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Rotations */
+.Im1 { transform: rotate(-5deg); }
+.Im2 { transform: rotate(3deg); }
+.Im3 { transform: rotate(-3deg); }
+.Im4 { transform: rotate(6deg); }
+.Im5 { transform: rotate(-2deg); }
+.Im6 { transform: rotate(4deg); }
+.Im7 { transform: rotate(-4deg); }
+
+/* Animation */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+
+.slider_carousel {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.slider_track {
+  display: flex;
+  /* width: 200%;  */
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider_div {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+}

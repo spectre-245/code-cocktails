@@ -1,0 +1,42 @@
+.bodyy{
+    padding-top: 50px;
+    background-color: #f8f9e5;
+    height: 40rem;
+    background-image: 
+    url("/src/assets/10-member-squad-ticket-pattern.svg"),
+    url("/src/assets/10-member-squad-ticket-pattern.svg"),
+    url("/src/assets/10-member-squad-ticket-pattern.svg"),
+    url("/src/assets/10-member-squad-ticket-pattern.svg"), /* left center */ /* left center */
+    url("/src/assets/10-member-squad-ticket-pattern.svg"), /* right center */
+    url("/src/assets/10-member-squad-ticket-pattern.svg"), 
+    url("/src/assets/10-member-squad-ticket-pattern.svg"), /* bottom left */
+    url("/src/assets/10-member-squad-ticket-pattern.svg"); /* bottom right */
+
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: 
+    left top,
+    right top,
+    left center,     /* first image */
+    center top,
+    right center,    /* second image */
+    right bottom,
+    left bottom,     /* third image */
+    center bottom;    
+}  
+
+.early_bird_heading{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #004c2f;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cardss_container{
+    height: 100%;
+     display: flex;
+     justify-content: center;
+     gap: 25px;
+
+}

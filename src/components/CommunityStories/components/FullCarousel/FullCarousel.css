@@ -1,0 +1,55 @@
+.F_caro_body{
+    height: 100dvh;
+    background-color: var(--F_caro_bg);
+}
+
+.f_caro_textdiv{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.fcaro_p{
+    text-align: center;
+    width: 100%;
+    font-size:25px ;
+    max-width: 750px;
+    font-weight: 600;
+}
+
+.f_caro_qdiv{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: start;
+}
+
+.caro_q_p{
+  padding-top: 0;
+  margin-top: 0; 
+  text-align: justify;
+  width: 100%;
+  max-width: var(--f_caro_qwidth);
+}
+
+.f_caro_qspan{
+    color: #b4acb1;
+}
+
+.caro_q_p{
+    opacity: 60%;
+}
+
+
+.fline_container{
+    display: flex;
+    justify-content: center;
+}
+
+.f_caro_line{
+    height: 2px;
+    background-color: var(--f_caroL_bg);
+    width: 100%;
+    max-width: 70rem;
+    
+}
