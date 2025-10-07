@@ -15,6 +15,8 @@ import { Link } from "react-router-dom";
 import ShareStory from "./components/ShareStory/ShareStory";
 import PartnerPerspective from "./components/PartnerPerspective/PartnerPerspective";
 import FullCarousel from "./components/FullCarousel/FullCarousel";
+import paystack from "./../../assets/paystack-logo1.svg";
+import wedey from "./../../assets/we-dey-manage-logo.svg";
 
 function CommunityStories() {
   return (
@@ -326,18 +328,43 @@ function CommunityStories() {
       </div>
       <ShareStory />
       <PartnerPerspective />
-      <div className="f_caro_box">
-        <FullCarousel
-          maxwidth="580px"
-          backgroundColor="#e7f4ff"
-          F_caro_content="Code & Cocktails stands out for its relaxed, welcoming vibe that makes it easy to connect authentically with people across the ecosystem. Paystack has always appreciated the casual atmosphere — it creates space for meaningful conversations, new connections, and genuine camaraderie. It’s one of the few events where you can engage deeply without the pressure, and that’s part of what makes it so special."
-          f_caro_question="
+      <div className="carousel_fwrapper">
+        <div className="f_caro_box">
+          <FullCarousel
+            maxwidth="580px"
+            backgroundColor="#e7f4ff"
+            F_caro_content="Code & Cocktails stands out for its relaxed, welcoming vibe that makes it easy to connect authentically with people across the ecosystem. Paystack has always appreciated the casual atmosphere — it creates space for meaningful conversations, new connections, and genuine camaraderie. It’s one of the few events where you can engage deeply without the pressure, and that’s part of what makes it so special."
+            f_caro_question="
           +Paystack made over 1000+ meaningful connections through Code & Cocktails.
           + The event drove impact in developer advocacy, product feedback, and hiring.
           + It deepened Paystack's visibility and immersion in Ghana's tech ecosystem.
           "
-          linecolor="#4aadfe"
-        />
+            linecolor="#4aadfe"
+            FCal_src={paystack}
+            foot_img_height="20px"
+            fFoot_name="Kwadwo Owusu-Agyeman"
+            fFoot_position="CEO | Paystack"
+            fcarou_bgImage={paystack}
+            bgTop="10rem"
+            bgRight="60px"
+          />
+
+          <FullCarousel
+            maxwidth="580px"
+            backgroundColor="#fff5e6"
+            F_caro_content="Code and Cocktails is the set of community engagement activities for devs and devs-adjacent professionals. I am excited to continue engaging, partnering & sponsoring future Code & Cocktail events via WDMA & PalmWine DJ & Friends."
+            f_caro_question="
+          + Contribution to ecosystem growth
+          "
+            linecolor="#fe9901"
+            linespace="8.7rem"
+            foot_img_height="7rem"
+            FCal_src={wedey}
+            fFoot_name="Emmanuel Agbeko Gamor"
+            fFoot_position="Entrepreneur | We Dey Manage Academy"
+            fcarou_bgImage={wedey}
+          />
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,30 @@
 .F_caro_body{
     height: 100dvh;
     background-color: var(--F_caro_bg);
+    width: 100vw;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    /* background-image:  
+    var(--F_caro_bgimage); */
+    background-repeat: no-repeat;
+    background-position:right; 
+    background-size: contain; 
+    position: relative;
+}
+
+.F_caro_body::before {
+  content: "";
+  position: absolute;
+  top: var(--F_caro_top);
+  right: var(--F_caro_right);
+  width: 100%;
+  height: 100%;
+  background-image: var(--F_caro_bgimage);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 40%;
+   opacity: 0.3; 
+  pointer-events: none;
 }
 
 .f_caro_textdiv{
@@ -49,7 +73,31 @@
 .f_caro_line{
     height: 2px;
     background-color: var(--f_caroL_bg);
+    margin-top: var(--line_space);
     width: 100%;
-    max-width: 70rem;
+    max-width: 85rem;
+}
+
+.fcal_footer{
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footcal_img{
+    height: var(--ffoot_height);
+}
+
+.ffoot_name{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.name_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     
 }

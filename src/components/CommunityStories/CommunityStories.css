@@ -120,6 +120,20 @@
 }
 
 
-.f_caro_box{
+.carousel_fwrapper{
+  
+  width: 100%;
   height: 100dvh;
+  overflow: hidden; 
+  position: relative;
 }
+
+
+
+.f_caro_box{
+ display: flex;
+  width: 200vw;
+  height: 100%;
+  animation: scrollLeft 10s linear infinite;
+}
+
