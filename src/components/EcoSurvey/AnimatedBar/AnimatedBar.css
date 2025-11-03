@@ -1,0 +1,24 @@
+.animated-bar {
+  width: var(--barWidth);
+  height: var(--startHeight);
+  background-color: var(--barColor);
+  border-radius: 6px;
+  animation: growShrink var(--duration) ease-in-out infinite;
+  transform-origin: bottom; /* makes it grow upward instead of both directions */
+}
+
+/* Animation */
+@keyframes growShrink {
+  0% {
+    height: var(--startHeight);
+  }
+  50% {
+    height: var(--maxHeight);
+  }
+  100% {
+    height: var(--startHeight);
+  }
+}
+
+
+

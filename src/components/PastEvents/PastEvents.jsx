@@ -13,7 +13,6 @@ import F1 from "../../assets/metric_assets/people.svg";
 import F2 from "../../assets/metric_assets/international-reach-card-image.svg";
 import F3 from "../../assets/metric_assets/online-presence-card-image.svg";
 import Footer from "../Hero/components/Footer/Footer";
-
 import "./PastEvents.css";
 import Button from "../Button/Button";
 import Metrics from "./components/Metrics/Metrics";

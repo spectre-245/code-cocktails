@@ -2,6 +2,8 @@ import "./App.css";
 import CommunityStories from "./components/CommunityStories/CommunityStories";
 import All from "./components/CommunityStories/components/All/All";
 import SubForm from "./components/CommunityStories/components/ShareStory/components/SubForm/SubForm";
+import EcoSurvey from "./components/EcoSurvey/EcoSurvey";
+import Engage from "./components/Engage/Engage";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import PastEvents from "./components/PastEvents/PastEvents";
@@ -29,6 +31,12 @@ function App() {
             </Route>
             <Route path="/CommunityStories/submission">
               <SubForm />
+            </Route>
+            <Route exact path="/EcosystemSurvey">
+              <EcoSurvey />
+            </Route>
+            <Route exact path="/Engage">
+              <Engage />
             </Route>
           </Switch>
         </div>

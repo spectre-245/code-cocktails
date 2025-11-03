@@ -1,0 +1,394 @@
+.Engage_Main{
+    background-color: #ffe4a9;
+    height: max-content;
+
+}
+
+.enage_hero_div{
+    display: flex;
+    justify-content: space-between;
+    height:100%;
+    height: fit-content;
+
+
+}
+
+.left_hero_div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left_hero_h3 {
+  margin-top: 0;
+  padding-top: 20px;
+  font-size: 4rem;
+  max-width: 31rem;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.left_hero_p {
+  margin-top: 10px;
+  max-width: 37rem;
+  font-size: 25px;
+  padding-left: 7rem;
+  padding-right: 2rem;
+}
+
+
+.right_hero_div{
+    height: 100%;
+    width: 100%;
+    padding-left: 5rem;
+    
+}
+
+
+
+.Image_wrapperr{
+     display: flex;
+     width: 100%;
+     flex-direction: column;
+     align-items: center;
+     position: relative;
+   
+
+}
+
+.pic_box_1{
+  display: inline-block;
+  padding: 0 0 5px 5px;
+  background-color: red;
+  position: absolute;
+  top: 0.999rem;
+  left: 4rem;
+    
+}
+
+
+.First_pic{
+   display: block;
+  max-width: 30rem;
+  height: auto;
+
+  
+}
+
+.pic_box_3{
+  display: inline-block;
+  padding: 0 0 5px 5px;
+  background-color: red;
+  position: absolute; 
+  top: 12.99rem;
+  left: 8rem;
+}
+
+.third_pic{
+   display: block;
+  max-width: 30rem;
+  height: auto;
+   
+}
+
+.pic_box_2{
+  display: inline-block;
+  padding: 0 0 5px 5px;
+  background-color: red;
+  position: absolute; 
+  top: 400px;
+  left: 4rem;
+  z-index: 2;
+}
+
+.second_pic{
+  display: block;
+  max-width: 30rem;
+  height: auto;
+   
+}
+
+
+
+.Custom_hackathons_div
+{
+    height: max-content;
+    padding-left:8rem ;
+    padding-top: 15rem;
+
+    }
+
+    .p_launch_party_div, .How_it_works_h3{
+      height: max-content;
+    padding-left:8rem ;
+    padding-top: 5rem;
+    }
+
+    .Custom_hackathons_h3, .Networking_mixers_h3, .p_launch_party_h3{
+        font-size: 2rem;
+        position: relative;
+        margin-bottom: 0;
+    }
+
+
+    .Networking_mixers_div{
+          padding-top: 5rem;
+          padding-left: 10px;
+    }
+
+
+
+
+     .strip_1, .strip_2, .strip_3 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width:23rem ;
+        padding: 26px;
+        font-size: 22px;
+        font-weight: bold;
+        border:2px solid black ;
+        height: 2rem;
+        opacity: 0; 
+        animation: fallDown 1.2s ease-out forwards; 
+     }
+
+     .strip_1{
+         background-color: #17bdff;
+         bottom: 1rem;
+         left: 5rem;
+         --rotate-angle: -25deg; 
+         z-index: 3;
+         animation-delay: 0.2s; 
+     }
+
+     .strip_2{
+         background-color: #ffaa00;
+         bottom: -5rem;
+         left: 17rem;
+         --rotate-angle: 17deg; 
+         z-index: 2;
+         animation-delay: 0.5s;
+
+     }
+
+     .strip_3{
+         background-color: #00a863;
+         bottom: 2rem;
+         left: 24rem;
+         --rotate-angle: -7deg; /* ✅ define variable */
+         z-index: 1;
+         animation-delay: 0.8s;
+
+     }
+
+
+
+
+
+@keyframes fallDown {
+  0% {
+    transform: translateY(-200px) rotate(var(--rotate-angle)); /* start above */
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) rotate(var(--rotate-angle)); /* final position */
+    opacity: 1;
+  }
+}
+
+
+.Custom_hackathons_p, .networking_mixers_p, .p_launch_party_p{
+    font-size: 1.6rem;
+    max-width: 84rem;
+    margin-top: 0;
+}
+
+.p_launch_party_p{
+  margin-bottom: 0;
+}
+
+.DevCard_section, .green_cards_sec, .blue_cards_div{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-right: 7rem;
+}
+
+.blue_cards_div{
+  padding-left: 7rem;
+}
+.devcard {
+  border: 4px solid;
+  border-color:var(--dev_card_bcolor) ;
+  background-color:var(--dev_card_color);
+  width: 390px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 6px;
+  margin-top: 2rem;
+}
+
+.devcard_img {
+  width: 100%;
+  height: 30rem;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+}
+
+.devcard_text {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: start;
+  color: #000;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.engage_btn_container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-right: 9rem;
+}
+
+
+.how_it_works_div{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+
+.How_it_works_card{
+  height: fit-content;
+  width: 370px;
+  background-color: #ffaa00;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  z-index: 2;
+
+}
+
+.How_it_works_card::after{
+   content: "";
+  position: absolute;
+  bottom: -7px;
+  right: -7px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 7px solid red;
+  border-right: 7px solid red;
+  z-index: -1;
+}
+
+
+.Num{
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 10rem;
+}
+.Topic{
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.How_p{
+    font-size: 20px;
+}
+
+.How_it_works_h3{
+   font-size: 2rem;
+        position: relative;
+}
+
+.how_btn_container, .blue_btn_container{
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.how_btn_container{
+  padding-bottom:5rem;
+}
+
+
+
+.ask_q_div{
+  background-color: #15261c;
+  color: white;
+  padding-top: 4rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+
+}
+
+.Ask_q_h3{
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.Ask_q_h4{
+    font-size: 2.2rem;
+    margin: 0;
+    padding-left: 12rem;
+}
+
+.ask_btn_container{
+  padding-top: 8rem;
+}
+
+.dropd_container{
+padding-top: 4rem;
+}
+
+
+.get_touch_div{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    font-size: 20px;
+    padding-bottom: 3rem;
+}
+
+.mail_a{
+    color: #ffaa00;
+}
+
+
+.light_bulb_div{
+  padding-left: 10rem;
+  padding-bottom: 7rem;
+
+  background-image: url('./../../assets/Engage_assest/light_bulb.png');
+  background-repeat: no-repeat;
+  background-size: 650px; /* make it large */
+  background-position: calc(90% + 20px) center; 
+  /* padding: 4rem 2rem; */
+}
+
+
+.bulb_h2{
+    font-size: 6rem;
+    max-width: 40rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.bulb_p{
+   font-size: 1.3rem;
+  font-weight: bold;
+  max-width: 33rem;
+  padding-bottom: 1.1rem;
+
+   
+
+}

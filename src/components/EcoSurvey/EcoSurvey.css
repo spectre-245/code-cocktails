@@ -1,0 +1,98 @@
+.EcoSurvey_Main{
+    background-color: #004c2f;
+    height:100% ;
+}
+
+.ecosurvey_heading{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:10rem;
+    
+    
+
+    .EcoSuv_h2{
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+        font-size: 5rem;
+    }
+
+    .EcoSuv_headin_p{
+        text-align: center;
+        font-size: 1.5rem;
+        max-width: 39rem;
+        margin-top: 0;
+        padding-top: 20px;
+        padding-bottom: 10px;
+
+    }
+
+
+}
+
+
+.bar_container{
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+
+
+.previous_survey_div{
+    height: 100dvh;
+    background-color: #f8f9e5;
+    
+}
+
+/* survey report section */
+
+.previous_survey_div{
+    padding-left: 10rem ;
+    height:42rem;
+}
+
+
+.Previous_survey_h3{
+    font-size: 3rem;
+    padding-top: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.survey_report_box{
+    display: flex;
+}
+
+.survey_report_card, .survey_report_card2, .survey_report_card3{
+    border:2px solid orange;
+    width: 25rem;
+    height: 30rem;
+   padding-top: 15px;
+
+}
+
+.survey_report_card2, .survey_report_card3{
+    border-left: none;
+}
+
+
+.survey_report_card{
+   display: flex;
+   flex-direction: column;
+   justify-content: right;
+   align-items: center;
+}
+
+.card_image{
+    width: 23rem;
+    height: 25rem;
+    padding-bottom: 10px;
+}
+
+.link_button{
+    text-decoration: none   ;
+}

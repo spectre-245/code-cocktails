@@ -107,7 +107,7 @@
 .p_scroll_track {
   display: flex;
   flex-direction: row;   /* horizontal scroll */
-  animation: scrollLeft 10s linear infinite;
+  animation: scrollLeft 30s linear infinite;
 }
 
 @keyframes scrollLeft {
@@ -115,25 +115,23 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(-150%);
   }
 }
 
 
 .carousel_fwrapper{
-  
-  width: 100%;
-  height: 100dvh;
-  overflow: hidden; 
   position: relative;
+  height: 100dvh;
+  display: flex;
+  width: 100%;
+  overflow: hidden; 
 }
 
 
 
 .f_caro_box{
  display: flex;
-  width: 200vw;
-  height: 100%;
-  animation: scrollLeft 10s linear infinite;
+  animation: scrollLeft 40s linear infinite;
 }
 

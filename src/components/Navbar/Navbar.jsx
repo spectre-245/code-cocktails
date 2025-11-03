@@ -42,8 +42,23 @@ function Navbar() {
             </NavLink>
           </li>
 
-          <li>Ecosystem Survey</li>
-          <li>Engage</li>
+          <li
+            className={location.pathname === "/EcosystemSurvey" ? "active" : ""}
+          >
+            <NavLink
+              to="/EcosystemSurvey"
+              className="nav-link"
+              activeClassName="active"
+            >
+              Ecosystem Survey
+            </NavLink>
+          </li>
+
+          <li className={location.pathname === "/Engage" ? "active" : ""}>
+            <NavLink to="/Engage" className="nav-link" activeClassName="active">
+              Engage
+            </NavLink>
+          </li>
           <li>Code Cup</li>
         </ul>
 

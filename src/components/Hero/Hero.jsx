@@ -130,7 +130,7 @@ function Hero() {
   }, [sliders.length]);
 
   return (
-    <div>
+    <div className="Hero_body">
       <p className="first_p">
         JOIN THE <br />
         TECH PARTY <br />

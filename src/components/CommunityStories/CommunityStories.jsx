@@ -17,6 +17,8 @@ import PartnerPerspective from "./components/PartnerPerspective/PartnerPerspecti
 import FullCarousel from "./components/FullCarousel/FullCarousel";
 import paystack from "./../../assets/paystack-logo1.svg";
 import wedey from "./../../assets/we-dey-manage-logo.svg";
+import Gamez from "./../../assets/gamerz-hive-black-logo.svg";
+import Footer from "../Hero/components/Footer/Footer";
 
 function CommunityStories() {
   return (
@@ -340,6 +342,7 @@ function CommunityStories() {
           + It deepened Paystack's visibility and immersion in Ghana's tech ecosystem.
           "
             linecolor="#4aadfe"
+            linespace="7rem"
             FCal_src={paystack}
             foot_img_height="20px"
             fFoot_name="Kwadwo Owusu-Agyeman"
@@ -357,15 +360,91 @@ function CommunityStories() {
           + Contribution to ecosystem growth
           "
             linecolor="#fe9901"
-            linespace="8.7rem"
+            linespace="15.6rem"
             foot_img_height="7rem"
             FCal_src={wedey}
             fFoot_name="Emmanuel Agbeko Gamor"
             fFoot_position="Entrepreneur | We Dey Manage Academy"
             fcarou_bgImage={wedey}
           />
+          {/* third */}
+
+          <FullCarousel
+            maxwidth="510px"
+            backgroundColor="#fff5e6"
+            F_caro_content="Very well organized program. Had a great time networking and meeting quite a lot of people I had not seen for a while. Really great music and vibes. It really brought the tech community together."
+            f_caro_question="
+          + Made 20+ connections with software engineers and founders.
+          + Recruited 5 developers for Touch Stack Technologies.
+          "
+            linecolor="#ffb800"
+            linespace="14.2rem"
+            foot_img_height="5rem"
+            FCal_src={Gamez}
+            fFoot_name="Brian Adjei-Otchwemah"
+            fFoot_position="Co-founder | GamerzHive"
+            fcarou_bgImage={Gamez}
+            bgTop="10rem"
+            // bgRight="60px"
+          />
+
+          {/* seccc */}
+          <FullCarousel
+            maxwidth="580px"
+            backgroundColor="#e7f4ff"
+            F_caro_content="Code & Cocktails stands out for its relaxed, welcoming vibe that makes it easy to connect authentically with people across the ecosystem. Paystack has always appreciated the casual atmosphere — it creates space for meaningful conversations, new connections, and genuine camaraderie. It’s one of the few events where you can engage deeply without the pressure, and that’s part of what makes it so special."
+            f_caro_question="
+          +Paystack made over 1000+ meaningful connections through Code & Cocktails.
+          + The event drove impact in developer advocacy, product feedback, and hiring.
+          + It deepened Paystack's visibility and immersion in Ghana's tech ecosystem.
+          "
+            linecolor="#4aadfe"
+            linespace="7rem"
+            FCal_src={paystack}
+            foot_img_height="20px"
+            fFoot_name="Kwadwo Owusu-Agyeman"
+            fFoot_position="CEO | Paystack"
+            fcarou_bgImage={paystack}
+            bgTop="10rem"
+            bgRight="60px"
+          />
+
+          <FullCarousel
+            maxwidth="580px"
+            backgroundColor="#fff5e6"
+            F_caro_content="Code and Cocktails is the set of community engagement activities for devs and devs-adjacent professionals. I am excited to continue engaging, partnering & sponsoring future Code & Cocktail events via WDMA & PalmWine DJ & Friends."
+            f_caro_question="
+          + Contribution to ecosystem growth
+          "
+            linecolor="#fe9901"
+            linespace="15.6rem"
+            foot_img_height="7rem"
+            FCal_src={wedey}
+            fFoot_name="Emmanuel Agbeko Gamor"
+            fFoot_position="Entrepreneur | We Dey Manage Academy"
+            fcarou_bgImage={wedey}
+          />
+          {/* third */}
+
+          <FullCarousel
+            maxwidth="550px"
+            backgroundColor="#fff5e6"
+            F_caro_content="Very well organized program. Had a great time networking and meeting quite a lot of people I had not seen for a while. Really great music and vibes. It really brought the tech community together."
+            f_caro_question="
+          + Made 20+ connections with software engineers and founders.
+          + Recruited 5 developers for Touch Stack Technologies.
+          "
+            linecolor="#fe9901"
+            linespace="15.6rem"
+            foot_img_height="7rem"
+            FCal_src={Gamez}
+            fFoot_name="Brian Adjei-Otchwemah"
+            fFoot_position="Co-founder | GamerzHive"
+            fcarou_bgImage={Gamez}
+          />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

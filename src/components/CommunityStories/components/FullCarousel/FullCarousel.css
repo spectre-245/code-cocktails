@@ -1,11 +1,9 @@
 .F_caro_body{
     height: 100dvh;
     background-color: var(--F_caro_bg);
-    width: 100vw;
+    width: 100dvw;
     border-left: 1px solid;
     border-right: 1px solid;
-    /* background-image:  
-    var(--F_caro_bgimage); */
     background-repeat: no-repeat;
     background-position:right; 
     background-size: contain; 
@@ -39,6 +37,7 @@
     font-size:25px ;
     max-width: 750px;
     font-weight: 600;
+    
 }
 
 .f_caro_qdiv{
@@ -88,6 +87,7 @@
 
 .footcal_img{
     height: var(--ffoot_height);
+
 }
 
 .ffoot_name{
@@ -98,6 +98,5 @@
 .name_part{
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    
+    justify-content: start; 
 }

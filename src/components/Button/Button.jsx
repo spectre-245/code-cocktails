@@ -4,6 +4,7 @@ function Button(props) {
   return (
     <div>
       <button
+        onClick={props.click}
         style={{
           "--bgColor": props.backgroundColor,
           "--shadowColor": props.shadowColor,
